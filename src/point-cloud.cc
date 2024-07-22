@@ -418,7 +418,7 @@ namespace hpp {
 
 #else
     bool PointCloud::displayOctree
-    (const OcTreePtr_t& /*octree*/, const std::string& /*octreeFrame*/)
+    (const std::string& /*octreeFrame*/)
     {
       return true;
     }
